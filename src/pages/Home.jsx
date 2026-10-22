@@ -1,5 +1,5 @@
 import ProductCard from '../components/ProductCard';
-import { getProducts } from '../products';
+import { getProducts } from '../data/products';
 
 export default function Home() {
   const products = getProducts();
